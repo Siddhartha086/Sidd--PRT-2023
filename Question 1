@@ -1,11 +1,15 @@
 Screenshot to the taken
-1.User creation(both) - 
-2.Group creation(both) 
-3.Permission specified
-4.Bucket image at public access setting of the bucket
-5.Access Point image while setting up public access setting of the bucket
-6.cli command usage and while success both for developer and client  
-7.Display the message after downloading the file 
-8.Communication set up of the VPC (3image only)
-9.Route Table image of the 3 Subnet association and edit routes  3 image + 3 image.
-10.Ping image of the 3 machine 
+ 1: IAM User Creation
+Create DeveloperUser and ClientUser with AdministratorAccess permissions
+2:IAM Group Assignment
+Add users to groups
+3: Developer's S3 Access Setup
+DeveloperUser sets up an S3 bucket with an Access Point Policy
+4: Access Point Configuration
+Configure the Access Point
+5: Client's S3 File Upload
+ClientUser uploads a file using the Access Point Policy
+6: Developer's Verification
+DeveloperUser verifies the successful upload
+7.VPC Communication Setup (Without Peering)
+Set up VPCs in us-east-1 and us-west-2:
